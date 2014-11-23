@@ -8,6 +8,12 @@
   "main": "dist/made-with-love.html",
   "license": "MIT",
   "homepage": "https://github.com/randsonjs/made-with-love",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "made-with-love",
+    "love"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",
