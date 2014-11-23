@@ -16,6 +16,24 @@ Or [download as ZIP](https://github.com/randsonjs/made-with-love/archive/master.
 
 ## Usage
 
+1. Import Web Components' polyfill:
+
+```html
+<script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+```
+
+2. Import Custom Element:
+
+```html
+<link rel="import" href="bower_components/made-with-love/src/made-with-love.html">
+```
+
+3. Start using it!
+
+```html
+<made-with-love></made-with-love>
+```
+
 ## Options
 
 Attribute | Options       | Default                         | Description
