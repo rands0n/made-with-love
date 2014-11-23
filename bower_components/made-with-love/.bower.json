@@ -1,0 +1,30 @@
+{
+  "name": "made-with-love",
+  "authors": [
+    "Randson Oliveira <randsonjs@gmail.com>"
+  ],
+  "description": "A web component showing what you did with love",
+  "main": "dist/made-with-love.html",
+  "license": "MIT",
+  "homepage": "https://github.com/randsonjs/made-with-love",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.1"
+  },
+  "_release": "78f0579fd5",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "78f0579fd5f6a4cb3b51c6724fd07082e2c89952"
+  },
+  "_source": "git://github.com/randsonjs/made-with-love.git",
+  "_target": "*",
+  "_originalSource": "made-with-love",
+  "_direct": true
+}
