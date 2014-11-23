@@ -1,4 +1,4 @@
-# <made-with-love>
+# &lt;made-with-love&gt;
 
 A web component showing what you did with love
 
