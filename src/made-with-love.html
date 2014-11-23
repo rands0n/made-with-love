@@ -17,7 +17,11 @@
                 to { transform: scale(1.1); }
             }
 
-            .heart {
+            .with-love {
+                color: #333;
+            }
+
+            .with-love .heart {
                 display: inline-block;
                 font-size: 1.4em;
                 color: #ff79c6;
@@ -30,12 +34,19 @@
                 animation: love .5s infinite linear alternate-reverse;
             }
 
-            .name {
+            .with-love .name {
+                color: #333;
                 text-decoration: none;
+            }
+
+            .with-love .name:hover {
+                color: #666;
             }
         </style>
 
-        Made with <span class="heart">♥</span> <a href="{{ url }}" class="name">{{ name }}</a>
+        <div class="with-love">
+            Made with <span class="heart">♥</span> <a href="{{ url }}" class="name">{{ name }}</a>
+        </div>
     </template>
 
     <script>
