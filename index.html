@@ -31,6 +31,10 @@
     <!-- Importing Custom Elements -->
     <link rel="import" href="bower_components/polymer/polymer.html">
     <link rel="import" href="bower_components/made-with-love/src/made-with-love.html">
+    <link rel="import" href="bower_components/twitter-button/src/twitter-button.html">
+    <link rel="import" href="bower_components/github-button/src/github-button.html">
+    <link rel="import" href="bower_components/facebook-button/src/facebook-button.html">
+    <link rel="import" href="bower_components/gplus-elements/src/gplus-one.html">
 </head>
 <body>
 
@@ -42,14 +46,16 @@
         <p class="description">
             A web component showing what you did with love
         </p>
-
-        <p class="github">
-            <iframe style="width: 7em;" src="http://ghbtns.com/github-btn.html?user=randsonjs&repo=made-with-love&type=watch&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="152" height="30"></iframe>
-            <iframe style="width: 7em;" src="http://ghbtns.com/github-btn.html?user=randsonjs&repo=made-with-love&type=fork&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="156" height="30"></iframe>
-        </p>
     </div>
 
     <div class="container">
+
+        <div style="margin-bottom: 20px;">
+            <github-button height="20" width="90" user="randsonjs" repo="made-with-love"></github-button>
+            <facebook-button href="http://randsonjs.github.io/made-with-love" layout="button_count" height="20"></facebook-button>
+            <twitter-button type="share" height="20" text="A web component showing what you did with love" href="http://randsonjs.github.io/made-with-love" user="randsonjs"></twitter-button>
+            <gplus-one size="medium" href="http://randsonjs.github.io/made-with-love" width="90"></gplus-one>
+        </div>
 
         <made-with-love name="Randson Jarthis" url="http://randsonjs.com"></made-with-love>
 
