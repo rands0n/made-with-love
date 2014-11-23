@@ -7,6 +7,12 @@
   "main": "dist/made-with-love.html",
   "license": "MIT",
   "homepage": "https://github.com/randsonjs/made-with-love",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "made-with-love",
+    "love"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",
@@ -17,14 +23,13 @@
   "dependencies": {
     "polymer": "Polymer/polymer#~0.5.1"
   },
-  "_release": "78f0579fd5",
+  "_release": "a54f33c0ed",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "78f0579fd5f6a4cb3b51c6724fd07082e2c89952"
+    "commit": "a54f33c0ed9c57c77a9b6ec1f336e2139f9e4d4a"
   },
   "_source": "git://github.com/randsonjs/made-with-love.git",
   "_target": "*",
-  "_originalSource": "made-with-love",
-  "_direct": true
+  "_originalSource": "made-with-love"
 }
