@@ -10,6 +10,11 @@ A web component showing what you did with love
 
 ## Options
 
+Attribute | Options       | Default                         | Description
+---       | ---           | ---                             | ---
+`name`    | *string*      | `Randson`                       | The name of user
+`url`     | *string*      | `https://github.com/randsonjs`  | The url of user in name
+
 ## Development
 
 ## Contributing
