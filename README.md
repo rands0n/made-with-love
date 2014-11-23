@@ -6,6 +6,14 @@ A web component showing what you did with love
 
 ## Install
 
+Install the component using [Bower](http://bower.io/):
+
+```sh
+$ bower install made-with-love --save
+```
+
+Or [download as ZIP](https://github.com/randsonjs/made-with-love/archive/master.zip).
+
 ## Usage
 
 ## Options
