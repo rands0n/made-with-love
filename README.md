@@ -55,6 +55,10 @@ Attribute | Options       | Default                         | Description
 
 For detailed changelog, check [Releases](https://github.com/randsonjs/made-with-love/releases).
 
+## Credits
+
+Built on top of [Polymer Boilerplate](https://github.com/webcomponents/polymer-boilerplate).
+
 ## License
 
 [MIT License](./LICENSE) © Randson Oliveira
