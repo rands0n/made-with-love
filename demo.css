@@ -12,9 +12,18 @@ a {
 }
 
 .container {
-    width: 44rem;
     margin: 0 auto;
     text-align: center;
+}
+
+ul.social-medias {
+    padding: 0;
+    list-style: none;
+}
+
+ul.social-medias li {
+    display: inline-block;
+    width: 5em;
 }
 
 .intro {
@@ -36,4 +45,20 @@ code {
     line-height: 20px;
     border-radius: 4px;
     font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+@media (max-width: 640px) {
+    body {
+        font-size: 16px;
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    a.pure-button {
+        font-size: 80%;
+    }
 }
