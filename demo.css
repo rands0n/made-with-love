@@ -5,10 +5,18 @@ html, body {
     line-height: 1.6em;
     padding: 0;
     margin: 0;
+    color: #fff;
 }
 
 a {
     color: #333;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    color: #34495e;
 }
 
 .container {
@@ -38,7 +46,8 @@ ul.social-medias li {
 code {
     margin: 0 auto 10px auto;
     display: block;
-    width: 19em;
+    width: 20em;
+    color: #333;
     background-color: #f8f8f8;
     padding: 10px;
     font-size: 14px;
@@ -61,4 +70,19 @@ code {
     a.pure-button {
         font-size: 80%;
     }
+}
+
+/** Sections */
+.install {
+    background-color: #61D2D6;
+    padding: 0 0 20px 0;
+    margin-top: 20px;
+}
+
+.usage {
+    color: #333;
+}
+
+.made-by {
+    padding: 20px 0;
 }
