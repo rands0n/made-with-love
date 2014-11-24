@@ -2,7 +2,7 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 
 <!-- Define my Custom Element -->
-<polymer-element name="made-with-love" attributes="name url">
+<polymer-element name="made-with-love" attributes="name url color">
     <template>
         <style type="text/css">
             @-webkit-keyframes love {
@@ -34,25 +34,22 @@
                 animation: love .5s infinite linear alternate-reverse;
             }
 
-            .with-love .name {
-                color: #333;
+            a {
                 text-decoration: none;
-            }
-
-            .with-love .name:hover {
-                color: #666;
+                border-bottom: 1px dotted;
             }
         </style>
 
-        <div class="with-love">
-            Made with <span class="heart">♥</span> by <a href="{{ url }}" class="name">{{ name }}</a>
+        <div class="with-love" style="color: {{ color }};">
+            Made with <span class="heart">♥</span> by <a href="{{ url }}" style="color: {{ color }};" class="name">{{ name }}</a>
         </div>
     </template>
 
     <script>
         Polymer({
             name: "Randson Oliveira",
-            url: "https://github.com/randsonjs"
+            url: "https://github.com/randsonjs",
+            color: "#333"
         });
     </script>
 </polymer-element>
