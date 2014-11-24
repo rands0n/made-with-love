@@ -23,11 +23,11 @@
   "dependencies": {
     "polymer": "Polymer/polymer#~0.5.1"
   },
-  "_release": "a54f33c0ed",
+  "_release": "d8de55ba58",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "a54f33c0ed9c57c77a9b6ec1f336e2139f9e4d4a"
+    "commit": "d8de55ba58ebb6dcf0786d84ec49049812b02d98"
   },
   "_source": "git://github.com/randsonjs/made-with-love.git",
   "_target": "*",
