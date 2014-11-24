@@ -42,6 +42,7 @@ Attribute | Options       | Default                         | Description
 ---       | ---           | ---                             | ---
 `name`    | *string*      | `Randson`                       | The name of user
 `url`     | *string*      | `https://github.com/randsonjs`  | The url of user in name
+`color`   | *string*      | `#333333`                       | The color of font
 
 ## Contributing
 
