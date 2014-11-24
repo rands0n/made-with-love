@@ -4,7 +4,7 @@ A web component showing what you did with love
 
 ## Demo
 
-> See the [component page](http://randsonjs.github.io/made-with-love) for details.
+> See the [component page](http://randsonjs.github.io/made-with-love) for more information.
 
 ## Install
 
