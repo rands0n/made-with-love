@@ -33,7 +33,7 @@ Or [download as ZIP](https://github.com/randsonjs/made-with-love/archive/master.
 3. Start using it!
 
 ```html
-<made-with-love></made-with-love>
+<made-with-love name="John Doe" url="http://example.com" color="#F62459"></made-with-love>
 ```
 
 ## Options
