@@ -1,4 +1,4 @@
-# &lt;made-with-love&gt;
+# [&lt;made-with-love&gt;](http://randsonjs.github.io/made-with-love/)
 
 A web component showing what you did with love
 
