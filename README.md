@@ -4,7 +4,7 @@ A web component showing what you did with love
 
 ## Demo
 
-> See the [component page](http://randsonjs.github.io/made-with-love) for more information.
+> See the [component page](http://randsonjs.github.io/made-with-love).
 
 ## Install
 
@@ -41,7 +41,7 @@ Or [download as ZIP](https://github.com/randsonjs/made-with-love/archive/master.
 Attribute | Options       | Default                         | Description
 ---       | ---           | ---                             | ---
 `name`    | *string*      | `Randson`                       | The name of user
-`url`     | *string*      | `https://github.com/randsonjs`  | The url of user in name
+`url`     | *string*      | `https://github.com/randsonjs`  | The url of user or organization
 `color`   | *string*      | `#333333`                       | The color of font
 
 ## Contributing
