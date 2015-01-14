@@ -1,8 +1,9 @@
 {
   "name": "made-with-love",
-  "version": "0.0.1",
+  "version": "0.2",
   "authors": [
-    "Randson Oliveira <randsonjs@gmail.com>"
+    "Randson Oliveira <randsonjs@gmail.com>",
+    "Albert Sanchez <albert.san.iza@gmail.com"
   ],
   "description": "A web component showing what you did with love",
   "main": "dist/made-with-love.html",
@@ -23,5 +24,8 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#~0.5.1"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^2.0.0"
   }
 }
