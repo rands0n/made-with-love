@@ -27,7 +27,7 @@ Or [download as ZIP](https://github.com/randsonjs/made-with-love/archive/master.
 2.Import Custom Element:
 
 ```html
-<link rel="import" href="bower_components/made-with-love/src/made-with-love.html">
+<link rel="import" href="bower_components/made-with-love/made-with-love.html">
 ```
 
 3.Start using it!
