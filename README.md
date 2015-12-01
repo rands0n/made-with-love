@@ -1,10 +1,10 @@
-# [&lt;made-with-love&gt;](http://randsonjs.github.io/made-with-love/)
+# [&lt;made-with-love&gt;](http://rands0n.github.io/made-with-love/)
 
 A web component showing what you did with love
 
 ## Demo
 
-> See the [component page](http://randsonjs.github.io/made-with-love).
+> See the [component page](http://rands0n.github.io/made-with-love).
 
 ## Install
 
@@ -14,7 +14,7 @@ Install the component using [Bower](http://bower.io/):
 $ bower install made-with-love --save
 ```
 
-Or [download as ZIP](https://github.com/randsonjs/made-with-love/archive/master.zip).
+Or [download as ZIP](https://github.com/rands0n/made-with-love/archive/master.zip).
 
 ## Usage
 
@@ -41,7 +41,7 @@ Or [download as ZIP](https://github.com/randsonjs/made-with-love/archive/master.
 Attribute | Options       | Default                         | Description
 ---       | ---           | ---                             | ---
 `name`    | *string*      | `Randson`                       | The name of user
-`url`     | *string*      | `https://github.com/randsonjs`  | The url of user or organization
+`url`     | *string*      | `https://github.com/rands0n`  | The url of user or organization
 `color`   | *string*      | `#333333`                       | The color of font
 
 ## Contributing
@@ -54,7 +54,7 @@ Attribute | Options       | Default                         | Description
 
 ## History
 
-For detailed changelog, check [Releases](https://github.com/randsonjs/made-with-love/releases).
+For detailed changelog, check [Releases](https://github.com/rands0n/made-with-love/releases).
 
 ## Credits
 
