@@ -1,6 +1,6 @@
 # [&lt;made-with-love&gt;](http://rands0n.github.io/made-with-love/)
 
-A web component showing what you did with love
+A web component showing what you did with love.
 
 ## Demo
 
@@ -33,7 +33,7 @@ Or [download as ZIP](https://github.com/rands0n/made-with-love/archive/master.zi
 3.Start using it!
 
 ```html
-<made-with-love name="John Doe" url="http://example.com" color="#F62459"></made-with-love>
+<made-with-love name="John Doe" url="http://example.com" color="#F62459" target="_blank"></made-with-love>
 ```
 
 ## Options
@@ -41,8 +41,9 @@ Or [download as ZIP](https://github.com/rands0n/made-with-love/archive/master.zi
 Attribute | Options       | Default                         | Description
 ---       | ---           | ---                             | ---
 `name`    | *string*      | `Randson`                       | The name of user
-`url`     | *string*      | `https://github.com/rands0n`  | The url of user or organization
+`url`     | *string*      | `https://github.com/rands0n`    | The url of user or organization
 `color`   | *string*      | `#333333`                       | The color of font
+`target`  | *string*      | `_self`                         | Where the linked document should be opened
 
 ## Contributing
 
